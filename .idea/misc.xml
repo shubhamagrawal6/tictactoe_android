@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/agraw/Desktop/Projects/tictactoe_android/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/agraw/Desktop/Projects/tictactoe_android/app/src/main/res/drawable/blue_button.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/agraw/Desktop/Projects/tictactoe_android/app/src/main/res/drawable/red_button.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/agraw/Desktop/Projects/tictactoe_android/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/agraw/Desktop/Projects/tictactoe_android/app/src/main/res/layout/player_setup.xml" value="0.25" />
       </map>
     </option>
   </component>
