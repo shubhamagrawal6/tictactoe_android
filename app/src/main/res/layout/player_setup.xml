@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/enterNamePrompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -21,11 +21,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/player1Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Label1"
-        android:textColor="#FF0000"
+        android:textColor="#880E4F"
         app:layout_constraintBottom_toTopOf="@+id/player1Name"
         app:layout_constraintStart_toStartOf="@+id/player1Name" />
 
@@ -36,13 +36,16 @@
         android:layout_marginTop="120dp"
         android:ems="10"
         android:hint="@string/NameHint"
+        android:hintTextColor="#6D4C41"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/enterNamePrompt"
+        android:importantForAutofill="no" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/player2Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Label2"
@@ -57,10 +60,13 @@
         android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="@string/NameHint"
+        android:hintTextColor="#6D4C41"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/player1Name" />
+        app:layout_constraintTop_toBottomOf="@+id/player1Name"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/submitButton"
