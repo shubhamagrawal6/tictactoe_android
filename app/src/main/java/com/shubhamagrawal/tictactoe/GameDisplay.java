@@ -26,7 +26,7 @@ public class GameDisplay extends AppCompatActivity {
 
         String[] playerNames = getIntent().getStringArrayExtra("PLAYER_NAMES");
 
-        if (playerNames != null){
+        if (!playerNames[0].equals("")){
             playerTurn.setText((playerNames[0] + "'s Turn"));
         }
         else{
